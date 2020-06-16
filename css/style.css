@@ -132,7 +132,7 @@ ol {
 
 .section-title h2 {
 	font-size: 44px;
-	color: #263246;
+	color: black;
 	margin-top: 34px;
 	margin-bottom: 5px;
 }
@@ -272,7 +272,7 @@ ol {
 
 .header__top__widget ul li {
 	font-size: 12px;
-	color: #263246;
+	color: black;
 	text-transform: uppercase;
 	list-style: none;
 	display: inline-block;
@@ -385,7 +385,7 @@ ol {
 
 .header__menu ul li a {
 	font-size: 16px;
-	color: #ffffff;
+	color: #eee;
 	font-weight: 700;
 	padding: 5px 0;
 	display: block;
@@ -394,14 +394,19 @@ ol {
 	text-transform: uppercase;
 	position: relative;
 }
-
+#buttonContact{
+	margin-top:18px;
+}
+.primary-btn:hover{
+	background-color:orange;
+}
 .header__menu ul li a:after {
 	position: absolute;
 	left: 0;
 	bottom: 0;
 	height: 2px;
 	width: 0%;
-	background: #ffffff;
+	background: orange;
 	content: "";
 	opacity: 0;
 	-webkit-transition: all, 0.3s;
@@ -561,7 +566,7 @@ ol {
 
 .services__item h5 {
 	font-size: 20px;
-	color: #263246;
+	color: black;
 	margin-top: 35px;
 	margin-bottom: 12px;
 }
@@ -586,7 +591,7 @@ ol {
 
 .chooseus__text h2 {
 	font-size: 44px;
-	color: #263246;
+	color: black;
 	margin-bottom: 6px;
 }
 
@@ -611,7 +616,7 @@ ol {
 
 .chooseus__item__text h2 {
 	font-size: 48px;
-	color: #263246;
+	color: black;
 	line-height: 45px;
 	margin-bottom: 5px;
 }
@@ -836,7 +841,7 @@ ol {
 
 .testimonial__text p {
 	font-size: 36px;
-	color: #263246;
+	color: black;
 	line-height: 48px;
 	margin-bottom: 35px;
 }
@@ -850,7 +855,7 @@ ol {
 
 .testimonial__text h5 {
 	font-size: 20px;
-	color: #263246;
+	color: black;
 	font-weight: 700;
 	margin-top: 15px;
 }
@@ -866,7 +871,7 @@ ol {
 -----------------------*/
 
 .footer {
-	background: #263246;
+	background: black;
 	padding-top: 70px;
 }
 
@@ -1141,7 +1146,7 @@ ol {
 }
 
 .about__bar .about__bar__item p {
-	color: #263246;
+	color: black;
 	font-weight: 700;
 	margin-bottom: 20px;
 }
@@ -1566,7 +1571,7 @@ ol {
 }
 
 .classes__sidebar__item h4 {
-	color: #263246;
+	color: black;
 	margin-bottom: 40px;
 }
 
@@ -1717,7 +1722,7 @@ ol {
 
 .classes__details h2 {
 	font-size: 44px;
-	color: #263246;
+	color: black;
 	margin-bottom: 16px;
 }
 
@@ -1773,7 +1778,7 @@ ol {
 }
 
 .classes__details__desc h6 {
-	color: #263246;
+	color: black;
 	font-weight: 700;
 	margin-bottom: 12px;
 }
@@ -1801,7 +1806,7 @@ ol {
 
 .leave__comment__text h2 {
 	font-size: 44px;
-	color: #263246;
+	color: black;
 	text-align: center;
 	margin-bottom: 35px;
 }
@@ -1828,7 +1833,7 @@ ol {
 
 .leave__comment__text form .leave__comment__rating h5 {
 	font-size: 20px;
-	color: #263246;
+	color: black;
 	display: inline-block;
 	font-weight: 700;
 	margin-right: 12px;
@@ -1946,7 +1951,7 @@ ol {
 .pricing__item .pricing__item__price h2 {
 	font-size: 70px;
 	font-weight: 700;
-	color: #263246;
+	color: black;
 	line-height: 65px;
 	-webkit-transition: all, 0.3s;
 	-moz-transition: all, 0.3s;
@@ -2029,7 +2034,7 @@ ol {
 
 .blog__item__text h5 a {
 	font-size: 20px;
-	color: #263246;
+	color: black;
 	-webkit-transition: all, 0.3s;
 	-moz-transition: all, 0.3s;
 	-ms-transition: all, 0.3s;
@@ -2161,7 +2166,7 @@ ol {
 }
 
 .blog__recent__item__text h6 {
-	color: #263246;
+	color: black;
 	font-weight: 700;
 	line-height: 20px;
 	margin-bottom: 5px;
@@ -2276,7 +2281,7 @@ ol {
 
 .blog__details__quote p {
 	line-height: 28px;
-	color: #263246;
+	color: black;
 }
 
 .blog__details__pic {
@@ -2293,7 +2298,7 @@ ol {
 }
 
 .blog__details__desc h4 {
-	color: #263246;
+	color: black;
 	font-weight: 700;
 	margin-bottom: 10px;
 }
@@ -2313,7 +2318,7 @@ ol {
 }
 
 .blog__details__tags__share p span {
-	color: #263246;
+	color: black;
 	font-weight: 700;
 }
 
@@ -2324,7 +2329,7 @@ ol {
 .blog__details__tags__share .blog__details__share a {
 	display: inline-block;
 	font-size: 18px;
-	color: #263246;
+	color: black;
 	margin-right: 24px;
 }
 
@@ -2355,7 +2360,7 @@ ol {
 }
 
 .blog__details__author__text h4 {
-	color: #263246;
+	color: black;
 	font-weight: 700;
 	margin-bottom: 5px;
 }
@@ -2384,7 +2389,7 @@ ol {
 
 .blog__previous__btn h6,
 .blog__next__btn h6 {
-	color: #263246;
+	color: black;
 	font-weight: 700;
 	margin-bottom: 5px;
 }
@@ -2425,7 +2430,7 @@ ol {
 }
 
 .contact__widget__item h4 {
-	color: #263246;
+	color: black;
 	margin-top: 16px;
 	margin-bottom: 5px;
 }
@@ -2494,7 +2499,7 @@ ol {
 
 .map .map-inside .inside-widget h5 {
 	font-size: 20px;
-	color: #263246;
+	color: black;
 	margin-bottom: 4px;
 }
 
@@ -2552,7 +2557,7 @@ ol {
 }
 
 .faq__accordion .card .card-heading.active a span {
-	color: #263246;
+	color: black;
 }
 
 .faq__accordion .card .card-heading.active a span:before {
@@ -2610,7 +2615,7 @@ ol {
 	content: "+";
 	font-size: 32px;
 	font-weight: 400;
-	color: #263246;
+	color: black;
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -2839,12 +2844,12 @@ ol {
 	}
 	.canvas__open {
 		font-size: 20px;
-		color: #263246;
+		color: black;
 		height: 30px;
 		width: 30px;
 		line-height: 30px;
 		text-align: center;
-		border: 1px solid #263246;
+		border: 1px solid black;
 		cursor: pointer;
 		position: absolute;
 		right: 15px;
@@ -2886,7 +2891,7 @@ ol {
 	}
 	.offcanvas__widget ul li {
 		font-size: 16px;
-		color: #263246;
+		color: black;
 		text-transform: uppercase;
 		list-style: none;
 		display: inline-block;
@@ -2898,7 +2903,7 @@ ol {
 	.offcanvas__social a {
 		display: inline-block;
 		font-size: 16px;
-		color: #263246;
+		color: black;
 		margin-right: 10px;
 	}
 	.offcanvas__social a:last-child {
@@ -2921,20 +2926,20 @@ ol {
 		-moz-border-radius: 0;
 		border-radius: 0;
 		background: transparent;
-		color: #263246;
+		color: black;
 	}
 	.slicknav_nav a:hover {
 		-webkit-border-radius: 0;
 		-moz-border-radius: 0;
 		border-radius: 0;
 		background: transparent;
-		color: #263246;
+		color: black;
 	}
 	.slicknav_nav .slicknav_row,
 	.slicknav_nav a {
 		padding: 10px 0;
 		margin: 0;
-		color: #263246;
+		color: black;
 		font-size: 16px;
 		border-bottom: 1px solid #e1e1e1;
 	}
