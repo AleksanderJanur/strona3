@@ -56,6 +56,7 @@ h1 {
 
 h2 {
 	font-size: 36px;
+	color: #5768AD;
 }
 
 h3 {
@@ -132,7 +133,7 @@ ol {
 
 .section-title h2 {
 	font-size: 44px;
-	color: black;
+	color: #5768AD;
 	margin-top: 34px;
 	margin-bottom: 5px;
 }
@@ -143,10 +144,9 @@ ol {
 	background-position: center center;
 }
 .set-bg2 {
-	background-repeat: no-repeat;
-	/*tutaj edycje trza robic*/
-
-	background-position: center center;
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
 }
 
 .spad {
@@ -846,7 +846,13 @@ ol {
 }
 
 .testimonial__text p {
-	font-size: 36px;
+	font-size: 24px;
+	color: black;
+	line-height: 48px;
+	margin-bottom: 35px;
+}
+.testimonial__text2 p {
+	font-size: 26px;
 	color: black;
 	line-height: 48px;
 	margin-bottom: 35px;

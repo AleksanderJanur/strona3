@@ -1,7 +1,7 @@
 /*! PhotoSwipe - v4.1.3 - 2019-01-08
 * http://photoswipe.com
 * Copyright (c) 2019 Dmitry Semenov; */
-(function (root, factory) { 
+(function (root, factory) {
 	if (typeof define === 'function' && define.amd) {
 		define(factory);
 	} else if (typeof exports === 'object') {
@@ -13,6 +13,7 @@
 
 	'use strict';
 	var PhotoSwipe = function(template, UiClass, items, options){
+
 
 /*>>framework-bridge*/
 /**
@@ -747,7 +748,7 @@ var _animations = {},
 		var animloop = function(){
 			if ( _animations[name] ) {
 				
-				t = _getCurrentTime() - startAnimTime; // time diff
+				t = _getCurrentTime() - startAnimTime+10; // time diff
 				//b - beginning (start prop)
 				//d - anim duration
 
