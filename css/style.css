@@ -140,7 +140,13 @@ ol {
 .set-bg {
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: top center;
+	background-position: center center;
+}
+.set-bg2 {
+	background-repeat: no-repeat;
+	/*tutaj edycje trza robic*/
+
+	background-position: center center;
 }
 
 .spad {
@@ -262,7 +268,7 @@ ol {
 
 .header__top__widget {
 	text-align: right;
-	padding: 28px 0 24px;
+	padding: 70px 0 24px;
 }
 
 .header__top__widget ul {
@@ -288,16 +294,16 @@ ol {
 	display: none;
 }
 
-.header__top__widget ul li:after {
-	position: absolute;
-	right: -5px;
-	top: 8px;
-	height: 2px;
-	width: 2px;
-	background: #5768AD;
-	content: "";
-	border-radius: 50%;
-}
+/*.header__top__widget ul li:after {*/
+/*	position: absolute;*/
+/*	right: -5px;*/
+/*	top: 8px;*/
+/*	height: 2px;*/
+/*	width: 2px;*/
+/*	background: #5768AD;*/
+/*	content: "";*/
+/*	border-radius: 50%;*/
+/*}*/
 
 .header__top__widget .primary-btn {
 	display: inline-block;
@@ -3045,5 +3051,8 @@ ol {
 
 	.sticky + .content {
 		padding-top: 60px;
+	}
+	.center {
+		padding-left: 200px;
 	}
 }
