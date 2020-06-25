@@ -486,7 +486,44 @@ Oferujemy również bezpłatne doradztwo kredytowe dla zainteresowanych klientó
     </div>
 
 </div>
+    <script>
+        function clickImage(source){
+            var AllImages = ['img/nasze/page1_1.png', 'img/nasze/page1_2.png', 'img/nasze/KARTA2-1.png'];
+            var pswpElement = document.querySelectorAll('.pswp')[0];
 
+// build items array
+            var items = [{
+                src: source,
+                w: 1900,
+                h: 1080
+            }];
+            for(let x=0; x<AllImages.length; x++){
+                if(AllImages[x]==source){
+
+                }else{
+                    items.push({
+                        src: AllImages[x],
+                        w: 1900,
+                        h: 1080
+                    })
+                }
+
+
+
+            }
+
+// define options (if needed)
+            var options = {
+                // optionName: 'option value'
+                // for example:
+                index: 0 // start at first slide
+            };
+
+// Initializes and opens PhotoSwipe
+            var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+            gallery.init();
+        }
+    </script>
 </body>
 
 </html>
